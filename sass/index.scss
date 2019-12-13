@@ -1,0 +1,27 @@
+$headings-font-family: "Love Ya Like A Sister", cursive;
+$spacer: 1rem;
+$spacers: (
+  6: $spacer * 8
+);
+$display5-size: 2rem;
+$display5-weight: 300;
+
+$primary: rgb(62, 0, 161);
+$dark: black;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister&display=swap");
+
+body {
+  background-color: #f2f2f2;
+}
+
+.icon {
+  width: 75px;
+  height: 75px;
+  ​ & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
