@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/dci-ber-fbw21/ui-basics-benny-s-burger-patrickthumeyer#readme",
   "devDependencies": {
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.13.1"
   },
   "dependencies": {
     "bootstrap": "^4.4.1"
